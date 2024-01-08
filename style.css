@@ -1,0 +1,67 @@
+.list-right{
+    position: absolute;
+    background: #FFD700;
+    top: 100%;
+    left:50%;
+    right: 0%;    
+    width: 50%;
+    height: 500px;
+}
+
+.list-left{
+    position: absolute;
+    background:#007A33;
+    top: 100%;
+    left: 0%;
+    right: 50%;    
+    width: 50%;
+    height: 500px;
+}
+
+.box { 
+    margin: 20px auto; 
+    width: 50px; 
+    height: 40px; 
+    text-align: center; 
+}
+
+.purplefont{   
+    font-size: 50px;
+    font-family: Helvetica;
+    color: #460ca3;
+    position: absolute;
+    top: 0%;
+    left: auto;
+    right: auto;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.button {  
+    bottom: 100%;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.parallax {
+    background-image: url("Parallax.jpg");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
