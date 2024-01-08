@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatable" content="ie=edge">
+
+            <title>Random NBA Player Generator</title>
+
+        <link rel = "stylesheet" href = "style.css" />
+        <link rel="shortcut icon" href="NBA-logo.png" />
+
+        <style>
+            body {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                margin: 0;
+                background-color:#FFFDD0
+            }
+
+            button {
+                font-size: 16px;
+                padding: 10px;
+                cursor: pointer;
+            }
+
+            #result {
+                margin-top: 20px;
+                border: 2px solid black;
+                padding: 10px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <body style="background-color:#FFFDD0"></body>
+
+        <div class = purplefont>
+
+            <b>Featured NBA player: Lebron James</b>
+            
+            <div class ="parallax">
+            <style>
+                .parallax {
+                background-image: url("Parallax.jpg");
+                min-height: 800px;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                }
+            </style>
+            </div>
+        </div>
+ 
+
+
+            <div class="list-left" ><!--color of left-->
+                <div style = "background-color: black;">
+                <p class="label-left" >
+                <h3 style = "color: white">Press the Button!</h3>
+                </p> 
+                </div>            
+                <div class = "button">
+                <button onclick="fetchData1()">Press Me!</button>
+                </div><!--button-->
+            </div>
+
+
+
+            <div class="list-right"> <!--color of right-->
+                <div style = "background-color: #A020F0" >
+                <p class="label-right" >
+                <h3 style = "color: white">Player </h3>
+                </p>
+                </div>
+                <div>
+                <ul class="list-players">
+                    <style>
+                        #result{
+                            font-size: 20px;
+                            font-family: Helvetica;
+                        }
+                    </style>
+            <div id="result">
+    
+            </div>
+            </div>
+                </ul>
+                
+        
+                
+            </div>
+
+    <script src="script.js"></script>
+    
+    <footer class="footer">
+        <p class="footnote">Created by Kevin Ye © January 2024 </p>
+        <a
+            style="font-size:15px"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/Kevinye85/CapitalOneChallenge"
+        >
+        Github
+        </a>
+        <br />
+
+    </footer>
+</body>
+</html>
